@@ -123,3 +123,8 @@ source "$ZDOTDIR/prompt.zsh"
 if [[ -f "$ZDOTDIR/local.zsh" ]]; then
   source "$ZDOTDIR/local.zsh"
 fi
+
+# bun completions
+[ -s "/home/ant/.bun/_bun" ] && source "/home/ant/.bun/_bun"
+export BUN_INSTALL="$HOME/.bun" 
+export PATH="$BUN_INSTALL/bin:$PATH" 
