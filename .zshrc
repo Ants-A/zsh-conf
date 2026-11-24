@@ -128,3 +128,7 @@ fi
 [ -s "/home/ant/.bun/_bun" ] && source "/home/ant/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun" 
 export PATH="$BUN_INSTALL/bin:$PATH" 
+
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+[[ -f ~/.cache/matugen/colors.zsh ]] && source ~/.cache/matugen/colors.zsh
