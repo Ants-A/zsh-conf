@@ -141,3 +141,5 @@ function y() {
     fi
     rm -f -- "$tmp"
 }
+
+[[ -z $SKIP_FETCH ]] && fastfetch
