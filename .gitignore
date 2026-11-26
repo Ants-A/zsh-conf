@@ -16,3 +16,5 @@ TUTORIAL.md
 
 # installed plugins
 ./plugins/
+
+starship.toml
